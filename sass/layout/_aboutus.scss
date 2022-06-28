@@ -1,0 +1,30 @@
+.aboutus__icon {
+  background-color: var(--secondary-backgroung-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.aboutus__item {
+  width: 270px;
+}
+
+.aboutus__list {
+  display: flex;
+  gap: 30px;
+}
+
+.aboutus {
+  padding-bottom: 0;
+}
+
+.aboutus__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

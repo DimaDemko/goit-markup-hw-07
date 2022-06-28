@@ -1,0 +1,126 @@
+.contact__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.site-nav__list {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.header__container {
+  align-items: center;
+  display: flex;
+}
+
+.contact__item + .contact__item {
+  margin-left: 50px;
+}
+
+.site-nav {
+  display: flex;
+}
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.header .logo {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 94px;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #000000;
+  font-family: Raleway;
+}
+
+.site-nav__link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition: color var(--transition);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.link-current-portfolio {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.site-nav .link-current {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.site-nav__item {
+  position: relative;
+}
+
+.link-current::after {
+  position: absolute;
+  content: "";
+  display: block;
+  /* align-items: flex-end; */
+  bottom: -29px;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
+.link-current.portfolio::after {
+  width: 78px;
+}
+
+.contact__link {
+  display: flex;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  transition: color var(--transition);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+}

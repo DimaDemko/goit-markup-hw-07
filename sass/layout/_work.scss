@@ -1,0 +1,24 @@
+.work__item {
+  position: relative;
+}
+.work__item .img {
+  width: 100%;
+}
+.work__sub-title {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  text-transform: uppercase;
+  padding-top: 27px;
+  padding-right: 82px;
+  padding-bottom: 27px;
+  padding-left: 83px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
